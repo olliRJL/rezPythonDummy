@@ -1,0 +1,24 @@
+config_version : 0
+
+name: pythonPkgTest
+
+version: 0.1.0
+
+uuid: 3eb1be1c-e981-475f-8c3f-e4700c409cd1
+
+authors:
+- olli
+
+description: >
+ Enter description here. Multiline is ok, but make sure
+ that you leave the single leading space on each line.
+
+variants:
+- [ Linux ]
+
+requires:
+- python-2.6+
+
+commands:
+- export $PATH=$PATH:!ROOT!/bin
+- export $PYTHONPATH=$PYTHONPATH:!ROOT!/modules
