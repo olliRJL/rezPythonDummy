@@ -10,8 +10,7 @@ authors:
 - olli
 
 description: >
- Enter description here. Multiline is ok, but make sure
- that you leave the single leading space on each line.
+ Simple test package for testing rez/git interoperation
 
 variants:
 - [ Linux ]
