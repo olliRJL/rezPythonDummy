@@ -2,7 +2,7 @@ config_version : 0
 
 name: pythonDummy
 
-version: 0.1.2
+version: 0.1.3
 
 uuid: 3eb1be1c-e981-475f-8c3f-e4700c409cd1
 
@@ -16,7 +16,7 @@ variants:
 - [ Linux ]
 
 requires:
-- python-2.6+
+- python-2.6+<3
 
 commands:
 - export PATH=$PATH:!ROOT!/bin
