@@ -1,0 +1,6 @@
+# no pyc files
+# no backup files
+# no build dir
+*.pyc
+*~
+build/
