@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env rezpy
 
 import dummyModule.dummy as dmd
 dmd.sayIt()
