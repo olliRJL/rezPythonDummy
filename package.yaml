@@ -1,6 +1,6 @@
 config_version : 0
 
-name: pythonPkgTest
+name: pythonDummy
 
 version: 0.1.0
 
@@ -20,4 +20,4 @@ requires:
 
 commands:
 - export $PATH=$PATH:!ROOT!/bin
-- export $PYTHONPATH=$PYTHONPATH:!ROOT!/modules
+- export $PYTHONPATH=$PYTHONPATH:!ROOT!/py
