@@ -2,7 +2,7 @@ config_version : 0
 
 name: pythonDummy
 
-version: 0.1.26
+version: 0.1.27
 
 uuid: 3eb1be1c-e981-475f-8c3f-e4700c409cd1
 
